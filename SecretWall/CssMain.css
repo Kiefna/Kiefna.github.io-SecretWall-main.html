@@ -1,0 +1,65 @@
+.background {
+    background-color: #2a3a3b;
+    font-size: 0px;
+    position: relative;
+}
+
+.vine {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("Img/Vines%20Edge.png");
+    position: absolute;
+    z-index: 10;
+}
+
+.container {
+    width: 300px;
+    position: relative;
+    background-color: white;
+}
+
+.brick {
+    position: absolute;
+}
+
+.brick .brickNorm {
+    height: 25px;
+    width: 25px;
+    background-image: url("Img/square%20brick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0;
+}
+
+.brick .brickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/Brick%20Wide.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0;
+}
+
+.brick .brickBox {
+    height: 50px;
+    width: 50px;
+    background-image: url("Img/SquareBlock.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0;
+}
+
+.brick .crackedBrickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/Scratched%20brick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0;
+}

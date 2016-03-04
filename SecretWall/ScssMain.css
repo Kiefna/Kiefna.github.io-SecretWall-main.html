@@ -1,0 +1,956 @@
+.background {
+  background-color: #2a3a3b;
+  font-size: 0px;
+  position: relative; }
+
+.container {
+  width: 375px;
+  position: relative;
+  background-color: white; }
+
+.vine {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("Img/Vines%20Edge.png");
+  position: absolute;
+  z-index: 10; }
+
+.container2 {
+  height: 25px;
+  width: 150px;
+  position: static;
+  display: inline-block; }
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+li {
+  display: inline-block;
+  list-style: none;
+  float: left;
+  padding: 0;
+  margin: 0;
+  position: static; }
+
+#item1 {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/item1animate/item1animate4.png");
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+#item2 {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/item2animate/item2animate4.png");
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+#item3 {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/item3animate/item3animate4.png");
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+#item4 {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/item4animate/item4animate4.png");
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+#item5 {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/item5animate/item5animate4.png");
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+#item6 {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/item6animate/item6animate4.png");
+  display: none;
+  margin: 0;
+  padding: 0;
+  position: static; }
+
+@-webkit-keyframes basicBrick {
+  0% {
+    background-image: url("Img/startingRuneBlock1.png"); }
+  10% {
+    background-image: url("Img/startingRuneBlock2.png"); }
+  25% {
+    background-image: url("Img/startingRuneBlock3.png"); }
+  40% {
+    background-image: url("Img/startingRuneBlock4.png"); }
+  60% {
+    background-image: url("Img/startingRuneBlock5.png"); }
+  75% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@-moz-keyframes basicBrick {
+  0% {
+    background-image: url("Img/startingRuneBlock1.png"); }
+  10% {
+    background-image: url("Img/startingRuneBlock2.png"); }
+  25% {
+    background-image: url("Img/startingRuneBlock3.png"); }
+  40% {
+    background-image: url("Img/startingRuneBlock4.png"); }
+  60% {
+    background-image: url("Img/startingRuneBlock5.png"); }
+  75% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@-o-keyframes basicBrick {
+  0% {
+    background-image: url("Img/startingRuneBlock1.png"); }
+  10% {
+    background-image: url("Img/startingRuneBlock2.png"); }
+  25% {
+    background-image: url("Img/startingRuneBlock3.png"); }
+  40% {
+    background-image: url("Img/startingRuneBlock4.png"); }
+  60% {
+    background-image: url("Img/startingRuneBlock5.png"); }
+  75% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@keyframes basicBrickPulse {
+  0% {
+    background-image: url("Img/startingRuneBlock1.png"); }
+  10% {
+    background-image: url("Img/startingRuneBlock2.png"); }
+  25% {
+    background-image: url("Img/startingRuneBlock3.png"); }
+  40% {
+    background-image: url("Img/startingRuneBlock4.png"); }
+  60% {
+    background-image: url("Img/startingRuneBlock5.png"); }
+  75% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@-webkit-keyframes basicBrickPulse {
+  0% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@-moz-keyframes basicBrickPulse {
+  0% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@-o-keyframes basicBrickPulse {
+  0% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@keyframes basicBrickPulse {
+  0% {
+    background-image: url("Img/startingRuneBlock6.png"); }
+  100% {
+    background-image: url("Img/startingRuneBlock7.png"); } }
+@-webkit-keyframes separateCrack {
+  0% {
+    background-image: url("Img/scratchBrickSeperate1.png"); }
+  20% {
+    background-image: url("Img/scratchBrickSeperate2.png"); }
+  40% {
+    background-image: url("Img/scratchBrickSeperate3.png"); }
+  60% {
+    background-image: url("Img/scratchBrickSeperate4.png"); }
+  80% {
+    background-image: url("Img/scratchBrickSeperate5.png"); }
+  100% {
+    background-image: url("Img/scratchBrickSeperatedComplete.png"); } }
+@-moz-keyframes separateCrack {
+  0% {
+    background-image: url("Img/scratchBrickSeperate1.png"); }
+  20% {
+    background-image: url("Img/scratchBrickSeperate2.png"); }
+  40% {
+    background-image: url("Img/scratchBrickSeperate3.png"); }
+  60% {
+    background-image: url("Img/scratchBrickSeperate4.png"); }
+  80% {
+    background-image: url("Img/scratchBrickSeperate5.png"); }
+  100% {
+    background-image: url("Img/scratchBrickSeperatedComplete.png"); } }
+@-o-keyframes separateCrack {
+  0% {
+    background-image: url("Img/scratchBrickSeperate1.png"); }
+  20% {
+    background-image: url("Img/scratchBrickSeperate2.png"); }
+  40% {
+    background-image: url("Img/scratchBrickSeperate3.png"); }
+  60% {
+    background-image: url("Img/scratchBrickSeperate4.png"); }
+  80% {
+    background-image: url("Img/scratchBrickSeperate5.png"); }
+  100% {
+    background-image: url("Img/scratchBrickSeperatedComplete.png"); } }
+@keyframes separateCrack {
+  0% {
+    background-image: url("Img/scratchBrickSeperate1.png"); }
+  20% {
+    background-image: url("Img/scratchBrickSeperate2.png"); }
+  40% {
+    background-image: url("Img/scratchBrickSeperate3.png"); }
+  60% {
+    background-image: url("Img/scratchBrickSeperate4.png"); }
+  80% {
+    background-image: url("Img/scratchBrickSeperate5.png"); }
+  100% {
+    background-image: url("Img/scratchBrickSeperatedComplete.png"); } }
+@-webkit-keyframes separateCrumble {
+  0% {
+    background-image: url("Img/CrumbleBrickSeparate1.png"); }
+  25% {
+    background-image: url("Img/CrumbleBrickSeparate2.png"); }
+  50% {
+    background-image: url("Img/CrumbleBrickSeparate3.png"); }
+  75% {
+    background-image: url("Img/CrumbleBrickSeparate4.png"); }
+  100% {
+    background-image: url("Img/CrumbleBrickSeparatedComplete.png"); } }
+@-moz-keyframes separateCrumble {
+  0% {
+    background-image: url("Img/CrumbleBrickSeparate1.png"); }
+  25% {
+    background-image: url("Img/CrumbleBrickSeparate2.png"); }
+  50% {
+    background-image: url("Img/CrumbleBrickSeparate3.png"); }
+  75% {
+    background-image: url("Img/CrumbleBrickSeparate4.png"); }
+  100% {
+    background-image: url("Img/CrumbleBrickSeparatedComplete.png"); } }
+@-o-keyframes separateCrumble {
+  0% {
+    background-image: url("Img/CrumbleBrickSeparate1.png"); }
+  25% {
+    background-image: url("Img/CrumbleBrickSeparate2.png"); }
+  50% {
+    background-image: url("Img/CrumbleBrickSeparate3.png"); }
+  75% {
+    background-image: url("Img/CrumbleBrickSeparate4.png"); }
+  100% {
+    background-image: url("Img/CrumbleBrickSeparatedComplete.png"); } }
+@keyframes separateCrumble {
+  0% {
+    background-image: url("Img/CrumbleBrickSeparate1.png"); }
+  25% {
+    background-image: url("Img/CrumbleBrickSeparate2.png"); }
+  50% {
+    background-image: url("Img/CrumbleBrickSeparate3.png"); }
+  75% {
+    background-image: url("Img/CrumbleBrickSeparate4.png"); }
+  100% {
+    background-image: url("Img/CrumbleBrickSeparatedComplete.png"); } }
+@-webkit-keyframes animate1 {
+  0% {
+    background-image: url("Img/item1animate/item1animate1.png"); }
+  33% {
+    background-image: url("Img/item1animate/item1animate2.png"); }
+  66% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@-moz-keyframes animate1 {
+  0% {
+    background-image: url("Img/item1animate/item1animate1.png"); }
+  33% {
+    background-image: url("Img/item1animate/item1animate2.png"); }
+  66% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@-o-keyframes animate1 {
+  0% {
+    background-image: url("Img/item1animate/item1animate1.png"); }
+  33% {
+    background-image: url("Img/item1animate/item1animate2.png"); }
+  66% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@keyframes animate1 {
+  0% {
+    background-image: url("Img/item1animate/item1animate1.png"); }
+  33% {
+    background-image: url("Img/item1animate/item1animate2.png"); }
+  66% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@-webkit-keyframes animate1T {
+  0% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@-moz-keyframes animate1T {
+  0% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@-o-keyframes animate1T {
+  0% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@keyframes animate1T {
+  0% {
+    background-image: url("Img/item1animate/item1animate3.png"); }
+  100% {
+    background-image: url("Img/item1animate/item1animate4.png"); } }
+@-webkit-keyframes animate2 {
+  0% {
+    background-image: url("Img/item2animate/item2animate1.png"); }
+  33% {
+    background-image: url("Img/item2animate/item2animate2.png"); }
+  66% {
+    background-image: url("Img/item2animate/item2animate3.png"); }
+  100% {
+    background-image: url("Img/item2animate/item2animate4.png"); } }
+@-moz-keyframes animate2 {
+  0% {
+    background-image: url("Img/item2animate/item2animate1.png"); }
+  33% {
+    background-image: url("Img/item2animate/item2animate2.png"); }
+  66% {
+    background-image: url("Img/item2animate/item2animate3.png"); }
+  100% {
+    background-image: url("Img/item2animate/item2animate4.png"); } }
+@-o-keyframes animate2 {
+  0% {
+    background-image: url("Img/item2animate/item2animate1.png"); }
+  33% {
+    background-image: url("Img/item2animate/item2animate2.png"); }
+  66% {
+    background-image: url("Img/item2animate/item2animate3.png"); }
+  100% {
+    background-image: url("Img/item2animate/item2animate4.png"); } }
+@keyframes animate2 {
+  0% {
+    background-image: url("Img/item2animate/item2animate1.png"); }
+  33% {
+    background-image: url("Img/item2animate/item2animate2.png"); }
+  66% {
+    background-image: url("Img/item2animate/item2animate3.png"); }
+  100% {
+    background-image: url("Img/item2animate/item2animate4.png"); } }
+@-webkit-keyframes animate3 {
+  0% {
+    background-image: url("Img/item3animate/item3animate1.png"); }
+  33% {
+    background-image: url("Img/item3animate/item3animate2.png"); }
+  66% {
+    background-image: url("Img/item3animate/item3animate3.png"); }
+  100% {
+    background-image: url("Img/item3animate/item3animate4.png"); } }
+@-moz-keyframes animate3 {
+  0% {
+    background-image: url("Img/item3animate/item3animate1.png"); }
+  33% {
+    background-image: url("Img/item3animate/item3animate2.png"); }
+  66% {
+    background-image: url("Img/item3animate/item3animate3.png"); }
+  100% {
+    background-image: url("Img/item3animate/item3animate4.png"); } }
+@-o-keyframes animate3 {
+  0% {
+    background-image: url("Img/item3animate/item3animate1.png"); }
+  33% {
+    background-image: url("Img/item3animate/item3animate2.png"); }
+  66% {
+    background-image: url("Img/item3animate/item3animate3.png"); }
+  100% {
+    background-image: url("Img/item3animate/item3animate4.png"); } }
+@keyframes animate3 {
+  0% {
+    background-image: url("Img/item3animate/item3animate1.png"); }
+  33% {
+    background-image: url("Img/item3animate/item3animate2.png"); }
+  66% {
+    background-image: url("Img/item3animate/item3animate3.png"); }
+  100% {
+    background-image: url("Img/item3animate/item3animate4.png"); } }
+@-webkit-keyframes animate4 {
+  0% {
+    background-image: url("Img/item4animate/item4animate1.png"); }
+  33% {
+    background-image: url("Img/item4animate/item4animate2.png"); }
+  66% {
+    background-image: url("Img/item4animate/item4animate3.png"); }
+  100% {
+    background-image: url("Img/item4animate/item4animate4.png"); } }
+@-moz-keyframes animate4 {
+  0% {
+    background-image: url("Img/item4animate/item4animate1.png"); }
+  33% {
+    background-image: url("Img/item4animate/item4animate2.png"); }
+  66% {
+    background-image: url("Img/item4animate/item4animate3.png"); }
+  100% {
+    background-image: url("Img/item4animate/item4animate4.png"); } }
+@-o-keyframes animate4 {
+  0% {
+    background-image: url("Img/item4animate/item4animate1.png"); }
+  33% {
+    background-image: url("Img/item4animate/item4animate2.png"); }
+  66% {
+    background-image: url("Img/item4animate/item4animate3.png"); }
+  100% {
+    background-image: url("Img/item4animate/item4animate4.png"); } }
+@keyframes animate4 {
+  0% {
+    background-image: url("Img/item4animate/item4animate1.png"); }
+  33% {
+    background-image: url("Img/item4animate/item4animate2.png"); }
+  66% {
+    background-image: url("Img/item4animate/item4animate3.png"); }
+  100% {
+    background-image: url("Img/item4animate/item4animate4.png"); } }
+@-webkit-keyframes animate5 {
+  0% {
+    background-image: url("Img/item5animate/item5animate1.png"); }
+  33% {
+    background-image: url("Img/item5animate/item5animate2.png"); }
+  66% {
+    background-image: url("Img/item5animate/item5animate3.png"); }
+  100% {
+    background-image: url("Img/item5animate/item5animate4.png"); } }
+@-moz-keyframes animate5 {
+  0% {
+    background-image: url("Img/item5animate/item5animate1.png"); }
+  33% {
+    background-image: url("Img/item5animate/item5animate2.png"); }
+  66% {
+    background-image: url("Img/item5animate/item5animate3.png"); }
+  100% {
+    background-image: url("Img/item5animate/item5animate4.png"); } }
+@-o-keyframes animate5 {
+  0% {
+    background-image: url("Img/item5animate/item5animate1.png"); }
+  33% {
+    background-image: url("Img/item5animate/item5animate2.png"); }
+  66% {
+    background-image: url("Img/item5animate/item5animate3.png"); }
+  100% {
+    background-image: url("Img/item5animate/item5animate4.png"); } }
+@keyframes animate5 {
+  0% {
+    background-image: url("Img/item5animate/item5animate1.png"); }
+  33% {
+    background-image: url("Img/item5animate/item5animate2.png"); }
+  66% {
+    background-image: url("Img/item5animate/item5animate3.png"); }
+  100% {
+    background-image: url("Img/item5animate/item5animate4.png"); } }
+@-webkit-keyframes animate6 {
+  0% {
+    background-image: url("Img/item6animate/item6animate1.png"); }
+  33% {
+    background-image: url("Img/item6animate/item6animate2.png"); }
+  66% {
+    background-image: url("Img/item6animate/item6animate3.png"); }
+  100% {
+    background-image: url("Img/item6animate/item6animate4.png"); } }
+@-moz-keyframes animate6 {
+  0% {
+    background-image: url("Img/item6animate/item6animate1.png"); }
+  33% {
+    background-image: url("Img/item6animate/item6animate2.png"); }
+  66% {
+    background-image: url("Img/item6animate/item6animate3.png"); }
+  100% {
+    background-image: url("Img/item6animate/item6animate4.png"); } }
+@-o-keyframes animate6 {
+  0% {
+    background-image: url("Img/item6animate/item6animate1.png"); }
+  33% {
+    background-image: url("Img/item6animate/item6animate2.png"); }
+  66% {
+    background-image: url("Img/item6animate/item6animate3.png"); }
+  100% {
+    background-image: url("Img/item6animate/item6animate4.png"); } }
+@keyframes animate6 {
+  0% {
+    background-image: url("Img/item6animate/item6animate1.png"); }
+  33% {
+    background-image: url("Img/item6animate/item6animate2.png"); }
+  66% {
+    background-image: url("Img/item6animate/item6animate3.png"); }
+  100% {
+    background-image: url("Img/item6animate/item6animate4.png"); } }
+@-webkit-keyframes animate7 {
+  0% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation1.png"); }
+  6.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  13.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  20% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation4.png"); }
+  26.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation5.png"); }
+  33.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation6.png"); }
+  40% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation7.png"); }
+  46.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation8.png"); }
+  53.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation9.png"); }
+  60% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation10.png"); }
+  66.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation11.png"); }
+  73.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation12.png"); }
+  80% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation13.png"); }
+  86.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation14.png"); }
+  100% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation15.png"); } }
+@-moz-keyframes animate7 {
+  0% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation1.png"); }
+  6.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  13.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  20% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation4.png"); }
+  26.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation5.png"); }
+  33.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation6.png"); }
+  40% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation7.png"); }
+  46.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation8.png"); }
+  53.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation9.png"); }
+  60% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation10.png"); }
+  66.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation11.png"); }
+  73.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation12.png"); }
+  80% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation13.png"); }
+  86.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation14.png"); }
+  100% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation15.png"); } }
+@-o-keyframes animate7 {
+  0% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation1.png"); }
+  6.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  13.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  20% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation4.png"); }
+  26.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation5.png"); }
+  33.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation6.png"); }
+  40% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation7.png"); }
+  46.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation8.png"); }
+  53.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation9.png"); }
+  60% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation10.png"); }
+  66.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation11.png"); }
+  73.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation12.png"); }
+  80% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation13.png"); }
+  86.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation14.png"); }
+  100% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation15.png"); } }
+@keyframes animate7 {
+  0% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation1.png"); }
+  6.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  13.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation2.png"); }
+  20% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation4.png"); }
+  26.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation5.png"); }
+  33.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation6.png"); }
+  40% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation7.png"); }
+  46.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation8.png"); }
+  53.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation9.png"); }
+  60% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation10.png"); }
+  66.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation11.png"); }
+  73.33% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation12.png"); }
+  80% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation13.png"); }
+  86.66% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation14.png"); }
+  100% {
+    background-image: url("Img/brickWideAnimation/brickWideAnimation15.png"); } }
+.animateBrickStart {
+  -webkit-animation: basicBrickPulse 1s linear infinite alternate;
+  -moz-animation: basicBrickPulse 1s linear infinite alternate;
+  -ms-animation: basicBrickPulse 1s linear infinite alternate;
+  -o-animation: basicBrickPulse 1s linear infinite alternate;
+  animation: basicBrickPulse 1s linear infinite alternate; }
+
+.animateBrickPulse {
+  -webkit-animation: basicBrickPulse 1s linear infinite alternate;
+  -moz-animation: basicBrickPulse 1s linear infinite alternate;
+  -ms-animation: basicBrickPulse 1s linear infinite alternate;
+  -o-animation: basicBrickPulse 1s linear infinite alternate;
+  animation: basicBrickPulse 1s linear infinite alternate; }
+
+.animateSeparateCrack {
+  -webkit-animation: separateCrack 2s linear 5s 1 alternate;
+  -moz-animation: separateCrack 2s linear 5s 1 alternate;
+  -ms-animation: separateCrack 2s linear 5s 1 alternate;
+  -o-animation: separateCrack 2s linear 5s 1 alternate;
+  animation: separateCrack 2s linear 5s 1 alternate; }
+
+.animateSeparateCrumble {
+  -webkit-animation: separateCrumble 2s linear 5.2s 1 alternate;
+  -moz-animation: separateCrumble 2s linear 5.2s 1 alternate;
+  -ms-animation: separateCrumble 2s linear 5.2s 1 alternate;
+  -o-animation: separateCrumble 2s linear 5.2s 1 alternate;
+  animation: separateCrumble 2s linear 5.2s 1 alternate; }
+
+.item1animate {
+  -webkit-animation: animate1 1s linear 1s 1 alternate;
+  -moz-animation: animate1 1s linear 1s 1 alternate;
+  -ms-animation: animate1 1s linear 1s 1 alternate;
+  -o-animation: animate1 1s linear 1s 1 alternate;
+  animation: animate1 1s linear 1s 1 alternate; }
+
+.item1animateTest {
+  -webkit-animation: animate1T 1s linear infinite alternate;
+  -moz-animation: animate1T 1s linear infinite alternate;
+  -ms-animation: animate1T 1s linear infinite alternate;
+  -o-animation: animate1T 1s linear infinite alternate;
+  animation: animate1T 1s linear infinite alternate; }
+
+.item2animate {
+  -webkit-animation: animate2 1s linear 1.25s 1 alternate;
+  -moz-animation: animate2 1s linear 1.25s 1 alternate;
+  -ms-animation: animate2 1s linear 1.25s 1 alternate;
+  -o-animation: animate2 1s linear 1.25s 1 alternate;
+  animation: animate2 1s linear 1.25s 1 alternate; }
+
+.item3animate {
+  -webkit-animation: animate3 1s linear 1.50s 1 alternate;
+  -moz-animation: animate3 1s linear 1.50s 1 alternate;
+  -ms-animation: animate3 1s linear 1.50s 1 alternate;
+  -o-animation: animate3 1s linear 1.50s 1 alternate;
+  animation: animate3 1s linear 1.50s 1 alternate; }
+
+.item4animate {
+  -webkit-animation: animate4 1s linear 1.75s 1 alternate;
+  -moz-animation: animate4 1s linear 1.75s 1 alternate;
+  -ms-animation: animate4 1s linear 1.75s 1 alternate;
+  -o-animation: animate4 1s linear 1.75s 1 alternate;
+  animation: animate4 1s linear 1.75s 1 alternate; }
+
+.item5animate {
+  -webkit-animation: animate5 1s linear 2s 1 alternate;
+  -moz-animation: animate5 1s linear 2s 1 alternate;
+  -ms-animation: animate5 1s linear 2s 1 alternate;
+  -o-animation: animate5 1s linear 2s 1 alternate;
+  animation: animate5 1s linear 2s 1 alternate; }
+
+.item6animate {
+  -webkit-animation: animate6 1s linear 2.25s 1 alternate;
+  -moz-animation: animate6 1s linear 2.25s 1 alternate;
+  -ms-animation: animate6 1s linear 2.25s 1 alternate;
+  -o-animation: animate6 1s linear 2.25s 1 alternate;
+  animation: animate6 1s linear 2.25s 1 alternate; }
+
+.brickWideAnimation {
+  -webkit-animation: animate7 1s linear 1 alternate;
+  -moz-animation: animate7 1s linear 1 alternate;
+  -ms-animation: animate7 1s linear 1 alternate;
+  -o-animation: animate7 1s linear 1 alternate;
+  animation: animate7 1s linear 1 alternate; }
+
+.crackedBrickWideSpecialLeft {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/square%20brick.png");
+  background-size: cover;
+  display: none;
+  margin: 0px;
+  z-index: 0; }
+
+.crackedBrickWideSpecialRight {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/squareBrickSeperateComplete.png");
+  background-size: cover;
+  display: none;
+  margin: 0px;
+  z-index: 0; }
+
+.CRABrickWideSpecial {
+  height: 25px;
+  width: 50px;
+  background-image: url("Img/scratchBrick.png");
+  background-size: cover;
+  display: inline-block;
+  margin: 0px;
+  z-index: 0; }
+
+.CrumbleBrickWideSpecialLeft {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/squareBrickCrumble.png");
+  background-size: cover;
+  display: none;
+  margin: 0px;
+  z-index: 0; }
+
+.CrumbleBrickWideSpecialRight {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/square%20brick.png");
+  background-size: cover;
+  display: none;
+  margin: 0px;
+  z-index: 0; }
+
+.CRBrickWideSpecial {
+  height: 25px;
+  width: 50px;
+  background-image: url("Img/CrumbleBrick.png");
+  background-size: cover;
+  display: inline-block;
+  margin: 0px;
+  z-index: 0; }
+
+.runeBrickNorm1Special {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/square%20brick.png");
+  background-size: cover;
+  display: inline-block;
+  margin: 0px;
+  z-index: 0; }
+
+.runeBrickNorm2Special {
+  height: 25px;
+  width: 25px;
+  background-image: url("Img/square%20brick.png");
+  background-size: cover;
+  display: inline-block;
+  margin: 0px;
+  z-index: 0; }
+
+.brick {
+  position: absolute;
+  z-index: 0; }
+  .brick.brickNorm {
+    height: 25px;
+    width: 25px;
+    background-image: url("Img/square%20brick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkBrickNorm {
+    height: 25px;
+    width: 25px;
+    background-image: url("Img/darkSquareBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkestBrickNorm {
+    height: 25px;
+    width: 25px;
+    background-image: url("Img/darkestSquareBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.brickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/Brick%20Wide.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.brickWideSuper {
+    height: 25px;
+    width: 150px;
+    background-image: url("Img/brickWideAnimation/brickWideAnimation1.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkBrickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/darkBrickWide.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.brickBox {
+    height: 50px;
+    width: 50px;
+    background-image: url("Img/SquareBlock.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkBrickBox {
+    height: 50px;
+    width: 50px;
+    background-image: url("Img/darkSquareBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkRuneBrick {
+    height: 50px;
+    width: 50px;
+    background-image: url("Img/startingRuneBlock1.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.crackedBrickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/scratchBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.CrumbleBrickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/CrumbleBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkCrumbleBrickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/darkCrumbleBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+  .brick.darkCrackedBrickWide {
+    height: 25px;
+    width: 50px;
+    background-image: url("Img/darkScratchedBrick.png");
+    background-size: cover;
+    display: inline-block;
+    margin: 0px;
+    z-index: 0; }
+
+.brick.active.brickNorm {
+  background: url("Img/darkSquareBrick.png"); }
+.brick.active.runeBrickNorm1 {
+  background: url("Img/darkSquareBrick.png"); }
+.brick.active.runeBrickNorm2 {
+  background: url("Img/darkSquareBrick.png"); }
+.brick.active.darkBrickNorm {
+  background: url("Img/square%20brick.png"); }
+.brick.active.darkestBrickNorm {
+  background: url("Img/darkestSquareBrick.png"); }
+.brick.active.brickWide {
+  background: url("Img/darkBrickWide.png"); }
+.brick.active.darkBrickWide {
+  background: url("Img/Brick%20Wide.png"); }
+.brick.active.brickBox {
+  background: url("Img/darkSquareBlock.png"); }
+.brick.active.darkBrickBox {
+  background: url("Img/SquareBlock.png"); }
+.brick.active.crackedBrickWide {
+  background: url("Img/darkScratchedBrick.png"); }
+.brick.active.crackedBrickWideSpecial {
+  background: url("Img/darkScratchedBrick.png"); }
+.brick.active.CrumbleBrickWide {
+  background: url("Img/darkCrumbleBrick.png"); }
+.brick.active.CrumbleBrickWideSpecial {
+  background: url("Img/darkCrumbleBrick.png"); }
+.brick.active.darkCrumbleBrickWide {
+  background: url("Img/CrumbleBrick.png"); }
+.brick.active.darkCrackedBrickWide {
+  background: url("Img/scratchBrick.png"); }
+
+.brick:active.brickNorm {
+  background: url("Img/darkSquareBrick.png"); }
+.brick:active.runeBrickNorm1 {
+  background: url("Img/darkSquareBrick.png"); }
+.brick:active.runeBrickNorm2 {
+  background: url("Img/darkSquareBrick.png"); }
+.brick:active.darkBrickNorm {
+  background: url("Img/square%20brick.png"); }
+.brick:active.darkestBrickNorm {
+  background: url("Img/darkestSquareBrick.png"); }
+.brick:active.brickWide {
+  background: url("Img/darkBrickWide.png"); }
+.brick:active.darkBrickWide {
+  background: url("Img/Brick%20Wide.png"); }
+.brick:active.brickBox {
+  background: url("Img/darkSquareBlock.png"); }
+.brick:active.darkBrickBox {
+  background: url("Img/SquareBlock.png"); }
+.brick:active.crackedBrickWide {
+  background: url("Img/darkScratchedBrick.png"); }
+.brick:active.crackedBrickWideSpecial {
+  background: url("Img/darkScratchedBrick.png"); }
+.brick:active.CrumbleBrickWide {
+  background: url("Img/darkCrumbleBrick.png"); }
+.brick:active.CrumbleBrickWideSpecial {
+  background: url("Img/darkCrumbleBrick.png"); }
+.brick:active.darkCrumbleBrickWide {
+  background: url("Img/CrumbleBrick.png"); }
+.brick:active.darkCrackedBrickWide {
+  background: url("Img/scratchBrick.png"); }
+
+/*# sourceMappingURL=ScssMain.css.map */

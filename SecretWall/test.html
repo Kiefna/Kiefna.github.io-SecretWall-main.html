@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<style>
+    div {
+        height: 50px;
+        width: 50px;
+        background-color: aqua;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        height: 25px;
+        width: 150px;
+    }
+    ul {
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        list-style:none;
+        float:left;
+        padding: 0;
+        margin: 0;
+    }
+
+    #item1 {
+        height: 25px;
+        width: 25px;
+        background-image: url("Img/square%20brick.png");
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #item2 {
+        height: 25px;
+        width: 25px;
+        background-image: url("Img/square%20brick.png");
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #item3 {
+        height: 25px;
+        width: 25px;
+        background-image: url("Img/squareBrickSeperateComplete.png");
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #item4 {
+        height: 25px;
+        width: 25px;
+        background-image: url("Img/square%20brick.png");
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #item5 {
+        height: 25px;
+        width: 25px;
+        background-image: url("Img/squareBrickCrumble.png");
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    #item6 {
+        height: 25px;
+        width: 25px;
+        background-image: url("Img/square%20brick.png");
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .brickWideSuper {
+         height: 25px;
+         width: 150px;
+         background-color: aqua;
+         background-size: cover;
+         display: inline-block;
+         margin: 0px;
+         z-index: 0;
+     }
+</style>
+<section>
+    <h2>Sortable Grid</h2>
+    <div class = "brickWideSuper">
+        <div class = "container">
+            <ul class="sortable grid">
+                <li id="item1"></li>
+                <li id="item2"></li>
+                <li id="item3"></li>
+                <li id="item4"></li>
+                <li id="item5"></li>
+                <li id="item6"></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="zepto.min.js"></script>
+<script src="zepto.dragswap.js"></script>
+<script>
+    $(function() {
+
+        $('.sortable_exclude_dynamic').dragswap({
+            element : 'li',
+            dropAnimation: true,
+            exclude : ['.correct', '.empty']
+        });
+
+        $('.sortable_exclude_dynamic').append(
+                '<li id="item1">Item 1</li>'
+                +'<li id="item2">Item 2</li>'
+                +'<li id="item3" class="correct">Item 3</li>'
+                +'<li id="item4">Item 4</li>'
+                +'<li id="item5" class="empty"></li>'
+                +'<li id="item6" class="correct">Item 6</li>'
+                +'<li id="item7" class="correct">Item 7</li>');
+
+        $('.sortable').dragswap({
+            element : 'li',
+            dropAnimation: true
+        });
+
+        $('.funcs').dragswap({
+            dropAnimation: false,
+            dropComplete: function() {
+                var sortArray = $('.funcs').dragswap('toArray');
+                $('#arrayResults').html('['+sortArray.join(',')+']');
+                var sortJSON = $('.funcs').dragswap('toJSON');
+                $('#jsonResults').html(sortJSON);
+            }
+        });
+    });
+</script>
+</body>
+
+</html>
